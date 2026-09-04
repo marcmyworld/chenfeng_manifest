@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gh" fetch="https://github.com" />
+	<remote name="cdbrg" fetch="https://codeberg.org" />
+
+    <!-- device tree -->
+    <project name="marcmyworld/android_device_xiaomi_chenfeng"
+					 remote="gh"
+					 revision="lineage-23.2"
+					 path="device/xiaomi/chenfeng" />
+
+    <!-- kernel tree -->
+    <project name="marcmyworld/android_device_xiaomi_chenfeng-kernel"
+					 remote="gh"
+					 revision="lineage-23.2"
+					 path="device/xiaomi/chenfeng-kernel" />
+
+    <!-- hardware tree -->
+	<project name="marcmyworld/android_hardware_xiaomi-chenfeng"
+					 remote="gh"
+					 revision="lineage-23.2"
+					 path="hardware/xiaomi" />
+
+    <!-- vendor blobs -->
+	<project name="smgreborn/vendor_xiaomi_chenfeng"
+					 remote="cdbrg"
+					 revision="lineage-23.2"
+					 path="vendor/xiaomi/chenfeng" />
+</manifest>
