@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="gh" fetch="https://github.com" />
-	<remote name="cdbrg" fetch="https://codeberg.org" />
+	<remote name="gitlb" fetch="https://gitlab.com" />
 
     <!-- device tree -->
-    <project name="marcmyworld/android_device_xiaomi_chenfeng"
-					 remote="gh"
+    <project name="xiaomi-chenfeng/android_device_xiaomi_chenfeng"
+					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="device/xiaomi/chenfeng" />
 
     <!-- kernel tree -->
-    <project name="marcmyworld/android_device_xiaomi_chenfeng-kernel"
-					 remote="gh"
+    <project name="xiaomi-chenfeng/android_device_xiaomi_chenfeng-kernel"
+					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="device/xiaomi/chenfeng-kernel" />
 
     <!-- hardware tree -->
-	<project name="marcmyworld/android_hardware_xiaomi-chenfeng"
-					 remote="gh"
+	<project name="xiaomi-chenfeng/android_hardware_xiaomi-chenfeng"
+					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="hardware/xiaomi" />
 
     <!-- vendor blobs -->
-	<project name="smgreborn/vendor_xiaomi_chenfeng"
-					 remote="cdbrg"
+	<project name="xiaomi-chenfeng/vendor_xiaomi_chenfeng"
+					 remote="gitlb"
 					 revision="lineage-23.2"
 					 path="vendor/xiaomi/chenfeng" />
 </manifest>
